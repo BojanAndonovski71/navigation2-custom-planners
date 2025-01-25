@@ -16,16 +16,16 @@ Project Structure
 
 lp_nav/
 ├── launch/
-│   ├── navigation_launch2.py          # Launch file for navigation
+│   ├── navigation_launch2.py       # Launch file for navigation setup
 ├── maps/
-│   ├── map.yaml
-│   ├── simulation-map.pgm             # Map for simulation
+│   ├── map.yaml                    # Map configuration file
+│   ├── simulation-map.pgm          # Map image for simulation
 ├── urdf/
-│   ├── robot.urdf                     # Robot URDF model
+│   ├── robot.urdf                  # Robot URDF model
 ├── config/
-│   ├── nav2_params-0.yaml             # Params for 0° tail
-│   ├── nav2_params-45.yaml            # Params for 45° tail
+│   ├── nav2_params-0.yaml          # Nav2 parameters for 0° tail
+│   ├── nav2_params-45.yaml         # Nav2 parameters for 45° tail
 ├── scripts/
-│   ├── fake_odometry_node.py          # Script for generating fake odometry
-├── CMakeLists.txt                     # Build system configuration
-├── package.xml                        # ROS2 package configuration
+│   ├── fake_odometry_node.py       # Script for generating fake odometry
+├── CMakeLists.txt                  # Build system configuration
+├── package.xml                     # ROS2 package configuration
