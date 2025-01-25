@@ -14,7 +14,7 @@ Includes predefined scenarios for testing and evaluation.
 ## Project Structure
 in the documentation file
 
-Installation
+## Installation
   1. Clone the repository:
 bash
 git clone https://github.com/BojanAndonovski71/navigation2-custom-planners.git
