@@ -29,3 +29,30 @@ lp_nav/
 │   ├── fake_odometry_node.py       # Script for generating fake odometry
 ├── CMakeLists.txt                  # Build system configuration
 ├── package.xml                     # ROS2 package configuration
+
+Installation
+  1. Clone the repository:
+bash
+git clone https://github.com/BojanAndonovski71/navigation2-custom-planners.git
+cd navigation2-custom-planners
+  2. Build the workspace:
+bash
+colcon build
+source install/setup.bash
+  3. Install dependencies:
+  Ensure ROS2 Humble and Nav2 are installed.
+  Install any missing dependencies with:
+bash
+rosdep install --from-paths src --ignore-src -r -y
+
+Usage
+Running the Navigation Stack
+  1. Start the Navigation2 stack:
+    In the first terminal:
+bash
+source install/setup.bash
+ros2 launch lp_nav navigation_launch2.py
+  2. Load a custom planner configuration:
+
+
+
