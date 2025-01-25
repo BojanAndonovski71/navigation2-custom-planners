@@ -1,4 +1,4 @@
-# Navigation2 Custom Planners
+# Nav2 Custom Planners
 This Repository evaluates and compares Global and Local Planners in ROS2
 
 ## Overview
