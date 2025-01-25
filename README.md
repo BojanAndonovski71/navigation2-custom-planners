@@ -15,15 +15,17 @@ Includes predefined scenarios for testing and evaluation.
 in the documentation file
 
 ## Installation
-  1. Clone the repository:
-bash
+1. Clone the repository:
+```
 git clone https://github.com/BojanAndonovski71/navigation2-custom-planners.git
 cd navigation2-custom-planners
-  2. Build the workspace:
-bash
+```
+2. Build the workspace:
+```
 colcon build
 source install/setup.bash
-  3. Install dependencies:
+```
+4. Install dependencies:
   Ensure ROS2 Humble and Nav2 are installed.
   Install any missing dependencies with:
 bash
