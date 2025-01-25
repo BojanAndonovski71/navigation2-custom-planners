@@ -13,6 +13,7 @@ Configurable for robots with different tail angles (0° and 45°).
 Includes predefined scenarios for testing and evaluation.
 
 Project Structure
+
 lp_nav/
 ├── launch/
 │   ├── navigation_launch2.py          # Launch file for navigation
