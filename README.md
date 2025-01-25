@@ -17,13 +17,15 @@ in the documentation file
 ## Installation
 1. Clone the repository:
 ```
-git clone https://github.com/BojanAndonovski71/navigation2-custom-planners.git
-cd navigation2-custom-planners
+$ mkdir -p colcon_ws/src
+$ cd ~/colcon_ws/src
+$ git clone https://github.com/BojanAndonovski71/navigation2-custom-planners.git
+$ cd navigation2-custom-planners
 ```
 2. Build the workspace:
 ```
-colcon build
-source install/setup.bash
+$ colcon build --symlink-install --packages-select
+$ source install/setup.bash
 ```
 4. Install dependencies:
   Ensure ROS2 Humble and Nav2 are installed.
