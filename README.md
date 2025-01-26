@@ -34,7 +34,7 @@ $ source install/setup.bash
 rosdep install --from-paths src --ignore-src -r -y
 ```
 
-##Usage
+## Usage
 Running the Navigation Stack
 1. Start the Navigation2 stack:
 In the first terminal:
