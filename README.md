@@ -31,7 +31,7 @@ $ source install/setup.bash
   Ensure ROS2 Humble and Nav2 are installed.
   Install any missing dependencies with:
 ```
-rosdep install --from-paths src --ignore-src -r -y
+$ rosdep install --from-paths src --ignore-src -r -y
 ```
 
 ## Usage
@@ -39,8 +39,8 @@ Running the Navigation Stack
 1. Start the Navigation2 stack:
 In the first terminal:
 ```
-source install/setup.bash
-ros2 launch lp_nav navigation_launch2.py
+$ source install/setup.bash
+$ ros2 launch lp_nav navigation_launch2.py
 ```
 2. Load a custom planner configuration:
 
